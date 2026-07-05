@@ -27,8 +27,6 @@ full CW keyer controllable both from a paddle and from any browser over WiFi.
 
 ## 📷 Gallery
 
-> _Photos coming soon._
-
 <!--
   To add pictures: create a `docs/` folder, drop the images in, then uncomment
   the table below (rename files to match). Easiest of all: open this README on
