@@ -33,12 +33,12 @@ full CW keyer controllable both from a paddle and from any browser over WiFi.
   To add pictures: create a `docs/` folder, drop the images in, then uncomment
   the table below (rename files to match). Easiest of all: open this README on
   GitHub, click the pencil (Edit), and drag‑and‑drop images straight into it —
-  GitHub uploads and inserts the links for you.
+  GitHub uploads and inserts the links for you.-->
 
 | The instrument | OLED dual‑VFO | Web control page |
 |:---:|:---:|:---:|
 | ![Build photo](docs/build.jpg) | ![OLED](docs/oled.jpg) | ![Web UI](docs/webui.png) |
--->
+
 
 ---
 
