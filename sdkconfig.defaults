@@ -1,0 +1,22 @@
+# Defaults for ESP32-S3-DevKitC-1 with WROOM-2 module (32MB Octal flash, 8MB Octal PSRAM)
+# Applied on first build; override interactively with `idf.py menuconfig`.
+
+CONFIG_IDF_TARGET="esp32s3"
+
+# --- Flash: 32 MB, Octal (OPI) mode @ 80 MHz ---
+CONFIG_ESPTOOLPY_FLASHMODE_OPI=y
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+CONFIG_ESPTOOLPY_FLASHSIZE_32MB=y
+
+# --- PSRAM: 8 MB, Octal (OPI) mode @ 80 MHz ---
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+CONFIG_SPIRAM_SPEED_80M=y
+
+# --- Console over UART0 (default) ---
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200
+
+# --- HTTP server: enable WebSocket support (CW keyer control page) ---
+CONFIG_HTTPD_WS_SUPPORT=y

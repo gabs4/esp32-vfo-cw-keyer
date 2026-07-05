@@ -1,0 +1,16 @@
+# ESP-IDF build output
+/build/
+
+# Managed components are fetched by idf.py from dependencies.lock
+/managed_components/
+
+# Local sdkconfig backups (keep sdkconfig and sdkconfig.defaults)
+sdkconfig.old
+sdkconfig.*.old
+
+# Editor / OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+## Managed component dependencies (fetched by idf.py into managed_components/).
+dependencies:
+  idf: ">=5.0"
+  # olikraus/u8g2 fork with an ESP-IDF HW SPI/I2C port + Kconfig driver trimming.
+  nixy4/u8g2: "^0.1.4"
+  # mDNS so the keyer is reachable at vfo-keyer.local (fetched on next build).
+  espressif/mdns: "^1.2"
