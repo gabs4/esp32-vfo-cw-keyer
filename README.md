@@ -212,6 +212,8 @@ codebase (no Arduino layer).
 
 If you build one, improve it, or spot a bug — issues and PRs are welcome.
 
+Here is a **[short video](https://www.youtube.com/shorts/FScfBk7vbhs)** on it and its messy wirring :-).
+
 **73 de YO4WM** 📡
 
 ## Credits
